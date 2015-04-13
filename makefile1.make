@@ -9,81 +9,45 @@ projects[drupal][version] = 7.36
 ; From these, you can add additional contrib modules you wanted to your Drupal directory;
 ; You can also set its version as well
 
-projects[ctools][subdir] = "contrib"
 
-projects[libraries][subdir] = "contrib"
+  projects[admin_menu][subdir] = "contrib"
+  projects[admin_menu][version] = "3.0-rc5"
 
-projects[views][subdir] = "contrib"
+  projects[cck][subdir] = "contrib"
+  projects[cck][version] = "3.0-alpha3"
 
-projects[token][subdir] = "contrib"
+  projects[ckeditor][subdir] = "contrib"
+  projects[ckeditor][version] = "1.16"
 
-projects[pathauto][subdir] = "contrib"
+  projects[ctools][subdir] = "contrib"
+  projects[ctools][version] = "1.5"
 
-projects[entity][subdir] = "contrib"
+  projects[context][subdir] = "contrib"
+  projects[context][version] = "3.6"
 
-projects[entityreference][subdir] = "contrib"
+  projects[date][subdir] = "contrib"
+  projects[date][version] = "2.8"
 
-projects[webform][subdir] = "contrib"
+  projects[features][subdir] = "contrib"
+  projects[features][version] = "2.3"
 
-projects[adminimal_theme][subdir] = "contrib"
+  projects[views][subdir] = "contrib"
+  projects[views][version] = "3.8"
 
-projects[date][subdir] = "contrib"
+  projects[pathauto][subdir] = "contrib"
+  projects[pathauto][version] = "1.2"
 
-projects[ckeditor][subdir] = "contrib"
+  projects[token][subdir] = "contrib"
+  projects[token][version] = "1.5"
 
-projects[imce][subdir] = "contrib"
+  projects[varnish][subdir] = "contrib"
+  projects[varnish][version] = "1.0-beta3"
 
-projects[wysiwyg][subdir] = "contrib"
+  projects[webform][subdir] = "contrib"
+  projects[webform][version] = "4.2"
 
-projects[jquery_update][subdir] = "contrib"
-
-projects[admin_menu][subdir] = "contrib"
-
-projects[context][subdir] = "contrib"
-
-projects[views_slideshow][subdir] = "contrib"
-
-
-
-
-; projects[admin_menu][subdir] = "contrib"
-; projects[admin_menu][version] = "3.0-rc5"
-
-; projects[cck][subdir] = "contrib"
-; projects[cck][version] = "3.0-alpha3"
-
-; projects[ckeditor][subdir] = "contrib"
-; projects[ckeditor][version] = "1.16"
-
-; projects[ctools][subdir] = "contrib"
-; projects[ctools][version] = "1.5"
-
-; projects[context][subdir] = "contrib"
-; projects[context][version] = "3.6"
-
-; projects[date][subdir] = "contrib"
-; projects[date][version] = "2.8"
-
-; projects[features][subdir] = "contrib"
-; projects[features][version] = "2.3"
-
-; projects[views][subdir] = "contrib"
-; projects[views][version] = "3.8"
-
-; projects[pathauto][subdir] = "contrib"
-; projects[pathauto][version] = "1.2"
-
-; projects[token][subdir] = "contrib"
-; projects[token][version] = "1.5"
-
-; projects[varnish][subdir] = "contrib"
-; projects[varnish][version] = "1.0-beta3"
-
-; projects[webform][subdir] = "contrib"
-; projects[webform][version] = "4.2"
-
-; projects[wysiwyg][subdir] = "contrib"
-; projects[wysiwyg][version] = "2.2"
+  projects[wysiwyg][subdir] = "contrib"
+  projects[wysiwyg][version] = "2.2"
 
 ; Some third party software, tools and libraries can also be included in Drush Make File and to be added to your Drupal directory as well
 
