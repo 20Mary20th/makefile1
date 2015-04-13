@@ -41,6 +41,8 @@ projects[admin_menu][subdir] = "contrib"
 
 projects[context][subdir] = "contrib"
 
+projects[module_filter][subdir] = "contrib"
+
 projects[views_slideshow][subdir] = "contrib"
 
 ; Some third party software, tools and libraries can also be included in Drush Make File and to be added to your Drupal directory as well
